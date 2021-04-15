@@ -10,7 +10,7 @@ public class menuClass {
 
         System.out.println("1. Create new Student");
         System.out.println("2. Update a Students name");
-        System.out.println("3. Update a Student age");
+        System.out.println("3. Update a Students age");
         System.out.println("4. Delete a Student");
         System.out.println("5. Show Student information");
         System.out.println("6. Show all Students");

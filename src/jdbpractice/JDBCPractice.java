@@ -22,7 +22,8 @@ public class JDBCPractice {
             statement = connection.createStatement();
 
         } catch (SQLException ex) {
-            System.out.println("Could not connect to database");
+            System.out.println("                <Could not connect to database>" +
+                    "\n<Check your internet connection and make sure that the database is running>");
         }
 
         while (loop) {
@@ -42,7 +43,7 @@ public class JDBCPractice {
         int age = input.nextInt();
         input.nextLine();
 
-        System.out.println("<A Social Security Number(SoSNr) will ge generated for you>");
+        System.out.println("<A Social Security Number(SoSNr) will be generated for you>");
         var sosNr = randomSoSNr();
 
 
